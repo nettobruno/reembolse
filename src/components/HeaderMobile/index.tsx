@@ -18,11 +18,13 @@ export const HeaderMobile: React.FC = () => {
         {isOpen === true ? 
           <Image
             src={logoLight}
+            priority={true}
             alt="Picture of the author"
           />
           :
           <Image
             src={logo}
+            priority={true}
             alt="Picture of the author"
           />
         }
@@ -47,9 +49,9 @@ export const HeaderMobile: React.FC = () => {
           </button>
 
           <SocialIcons>
-            <InstagramLogo size={24} color="#ffffff" />
-            <FacebookLogo size={24} color="#ffffff" />
-            <YoutubeLogo size={24} color="#ffffff" />
+            <a href="#"><InstagramLogo size={24} color="#ffffff" /></a>
+            <a href="#"><FacebookLogo size={24} color="#ffffff" /></a>
+            <a href="#"><YoutubeLogo size={24} color="#ffffff" /></a>
           </SocialIcons>
         </Navigation>
       )}
