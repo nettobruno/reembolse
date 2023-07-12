@@ -1,12 +1,8 @@
 import styled from 'styled-components';
 
-interface Props {
-  isOpen: boolean;
-}
-
-export const Container = styled.div<Props>`
-  background-color: ${(props) => props.isOpen == true && '#117BED'};
-  height: ${(props) => props.isOpen == true && '100vh'};
+export const Container = styled.div<{ $isOpen: boolean }>`
+  background-color: ${(props) => props.$isOpen == true && '#117BED'};
+  height: ${(props) => props.$isOpen == true && '100vh'};
   padding: 50px 20px;
 
   @media (min-width: 768px) {

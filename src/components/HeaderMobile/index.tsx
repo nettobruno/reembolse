@@ -13,7 +13,7 @@ export const HeaderMobile: React.FC = () => {
   };
 
   return (
-    <Container isOpen={isOpen}>
+    <Container $isOpen={isOpen}>
       <Header>
         {isOpen === true ? 
           <Image
