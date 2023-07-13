@@ -1,7 +1,7 @@
 'use client'
 
-import { createGlobalStyle } from 'styled-components';
- 
+import { createGlobalStyle } from 'styled-components'
+
 const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
@@ -10,6 +10,6 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased !important;
   }
-`;
- 
-export default GlobalStyle;
+`
+
+export default GlobalStyle

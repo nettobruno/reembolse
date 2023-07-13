@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div<{ $isOpen: boolean }>`
   background-color: ${(props) => props.$isOpen == true && '#117BED'};
@@ -8,25 +8,24 @@ export const Container = styled.div<{ $isOpen: boolean }>`
   @media (min-width: 768px) {
     display: none;
   }
-`;
+`
 
 export const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`;
+`
 
 export const MenuItem = styled.a`
   margin: 0.5rem;
   color: #333;
   text-decoration: none;
-
-`;
+`
 
 export const ToggleButton = styled.button`
   background-color: transparent;
   cursor: pointer;
-`;
+`
 
 export const Navigation = styled.nav`
   margin-top: 40px;
@@ -67,11 +66,11 @@ export const Navigation = styled.nav`
     font-size: 16px;
     font-weight: 700;
   }
-`;
+`
 
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 32px;
-`;
+`
