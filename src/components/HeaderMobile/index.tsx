@@ -10,6 +10,7 @@ import {
 import Image from 'next/image'
 import logo from '../../images/logo.png'
 import logoLight from '../../images/logo-light.png'
+import { Button } from '../Button'
 import { Container, Header, ToggleButton, MenuItem, Navigation, SocialIcons } from './style'
 
 export const HeaderMobile: React.FC = () => {
@@ -50,10 +51,10 @@ export const HeaderMobile: React.FC = () => {
             </li>
           </ul>
 
-          <button>
+          <Button type='background' full={true} onClick={() => console.log('clicou no botão Peça já sua proposta')}>
             <p>Peça já sua proposta</p>
             <ArrowRight size={24} color='#ffffff' />
-          </button>
+          </Button>
 
           <SocialIcons>
             <a href='#'>

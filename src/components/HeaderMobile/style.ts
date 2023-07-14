@@ -48,24 +48,6 @@ export const Navigation = styled.nav`
   ul li:last-child {
     margin-bottom: 64px;
   }
-
-  button {
-    background-color: transparent;
-    border: 1px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-    margin-bottom: 50px;
-  }
-
-  button p {
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    font-weight: 700;
-  }
 `
 
 export const SocialIcons = styled.div`
@@ -73,4 +55,6 @@ export const SocialIcons = styled.div`
   justify-content: center;
   align-items: center;
   gap: 32px;
+
+  margin-top: 50px;
 `
