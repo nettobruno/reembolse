@@ -51,7 +51,11 @@ export const HeaderMobile: React.FC = () => {
             </li>
           </ul>
 
-          <Button type='background' full={true} onClick={() => console.log('clicou no botão Peça já sua proposta')}>
+          <Button
+            type='inline'
+            full={true}
+            onClick={() => console.log('clicou no botão Peça já sua proposta')}
+          >
             <p>Peça já sua proposta</p>
             <ArrowRight size={24} color='#ffffff' />
           </Button>

@@ -1,4 +1,3 @@
-
 import styled from 'styled-components'
 
 export const Container = styled.button`
@@ -12,18 +11,18 @@ export const Container = styled.button`
   gap: 10px;
   align-items: center;
 
-  transition: all .2s;
+  transition: all 0.2s;
 
   &.inline {
-    border: 1px solid #F8F9FA;
+    border: 1px solid #f8f9fa;
     background-color: transparent;
-    color: #F8F9FA;
+    color: #f8f9fa;
   }
 
   &.background {
-    border: 1px solid #117BED;
-    background-color: #117BED;
-    color: #F8F9FA;
+    border: 1px solid #117bed;
+    background-color: #117bed;
+    color: #f8f9fa;
   }
 
   &.sm {
@@ -35,7 +34,7 @@ export const Container = styled.button`
   }
 
   &.lg {
-    padding: 16px 64px;
+    padding: 16px 32px;
   }
 
   &.full {
